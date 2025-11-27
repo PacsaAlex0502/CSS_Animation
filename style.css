@@ -1,0 +1,63 @@
+.box {
+        padding: 5px;
+        width: 100px;
+        height: 100px;
+        margin: 20px;    
+}
+
+.box1 {
+    background-color: aquamarine;
+    transition: background-color 3s;
+}
+
+.box1:hover {
+    background-color: burlywood;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box2:hover {
+    transform: rotate(45deg);
+    transition: transform 2s;
+}
+
+.box3 {
+    background-color: blueviolet;
+    transition: width 10s, height 2s, background-color 1s;
+}
+
+.box3:hover {
+    width: 200px;
+    height: 180px;
+    background-color: red;
+}
+
+.box4{
+    background-color: chartreuse;
+    transition: transform 3s, background-color 5s; 
+}
+
+.box4:hover {
+    transform: scale(1.5);
+    background-color: darkolivegreen;
+}
+
+.box5 {
+    background-color: darkviolet;
+    transition: transform 1s, background-color 2s;
+}
+
+.box5:hover{
+    transform: translateX(1000px);
+    background-color: honeydew;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: antiquewhite;
+}

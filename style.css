@@ -49,7 +49,7 @@
     transition: transform 1s, background-color 2s;
 }
 
-.box5:hover{
+.box5:hover {
     transform: translateX(1000px);
     background-color: honeydew;
 }
@@ -60,4 +60,21 @@ p {
     text-align: center;
     color: white;
     background-color: antiquewhite;
+}
+
+a {
+    gap: 6px;
+    display: inline-flex;
+    margin: 40px;
+    align-items: center;
+    font-weight: 600;
+
+    color: aqua;
+    background-color: blanchedalmond;
+    transition: transform 1s ease, box-shadow ease 0.3s, color 0.5;
+}
+a:hover {
+    transform: translateX(-6px), translateY(6px), scale(1.15);
+    color: green;
+    box-shadow: 0 14px 28px wheat;
 }
